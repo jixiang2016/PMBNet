@@ -32,5 +32,35 @@ pip install -r requirements.txt
 - Unzip them under a specified directory by yourself.
 - Please download checkpoints from this [link](https://drive.google.com/drive/folders/172pk7ppPmbLkcaNvYyO4OOXgn0Ia9SR_?usp=sharing) and put them under root directory of this project.
 
+## Test
+To test PMBNet, please run the command bellow:
+``` shell
+bash ./test.sh       ### Please specify your data directory, data mode and output path in the script
+```
+## Train
+To train PMBNet, please run the command bellow:
+``` shell
+bash ./train.sh       ### Please refer to the script for more info.
+```
 
+## Citation
+
+If you find our work useful, please kindly cite as:
+```
+@InProceedings{Ji_2023_ICCV,
+    author    = {Ji, Xiang and Wang, Zhixiang and Zhong, Zhihang and Zheng, Yinqiang},
+    title     = {Rethinking Video Frame Interpolation from Shutter Mode Induced Degradation},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {12259-12268}
+}
+```
+
+## Acknowledgement
+This project is based on works below:
+- [RIFE](https://github.com/megvii-research/ECCV2022-RIFE)
+- [MIMO-UNet](https://github.com/chosj95/MIMO-UNet)
+- [DEMFI](https://github.com/JihyongOh/DeMFI)
+and the public dataset [GOPRO](https://drive.google.com/file/d/1rJTmM9_mLCNzBUUhYIGldBYgup279E_f/view)
 
