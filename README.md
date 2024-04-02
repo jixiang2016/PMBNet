@@ -33,12 +33,12 @@ pip install -r requirements.txt
 - Please download checkpoints from this [link](https://drive.google.com/drive/folders/172pk7ppPmbLkcaNvYyO4OOXgn0Ia9SR_?usp=sharing) and put them under root directory of this project.
 
 ## Test
-To test PMBNet, please run the command bellow:
+To test PMBNet, please run the command below:
 ``` shell
 bash ./test.sh       ### Please specify your data directory, data mode and output path in the script
 ```
 ## Train
-To train PMBNet, please run the command bellow:
+To train PMBNet, please run the command below:
 ``` shell
 bash ./train.sh       ### Please refer to the script for more info.
 ```
