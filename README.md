@@ -28,7 +28,7 @@ python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
 pip install -r requirements.txt
 ```
 ## Data and Pretrained Model
-- Download datasets [RD_VFI]([https://drive.google.com/file/d/19RQzMoieKcLP92F4whVzoAXNXG3XaoiQ/view](https://drive.google.com/file/d/19RQzMoieKcLP92F4whVzoAXNXG3XaoiQ/view?usp=sharing)) and synthetic data [GOPRO-VFI_copy](https://drive.google.com/file/d/1AaI1DD0SYECfL8GXFuCR6a4tZieRCMMe/view?usp=sharing) based on [GOPRO](https://drive.google.com/file/d/1rJTmM9_mLCNzBUUhYIGldBYgup279E_f/view). <!--   coming soon   -->
+- Download datasets [RD_VFI](https://drive.google.com/file/d/19RQzMoieKcLP92F4whVzoAXNXG3XaoiQ/view?usp=sharing) and synthetic data [GOPRO-VFI_copy](https://drive.google.com/file/d/1AaI1DD0SYECfL8GXFuCR6a4tZieRCMMe/view?usp=sharing) based on [GOPRO](https://drive.google.com/file/d/1rJTmM9_mLCNzBUUhYIGldBYgup279E_f/view). <!--   coming soon   -->
 - Unzip them under a specified directory by yourself.
 - Please download checkpoints from this [link](https://drive.google.com/drive/folders/172pk7ppPmbLkcaNvYyO4OOXgn0Ia9SR_?usp=sharing) and put them under root directory of this project.
 
